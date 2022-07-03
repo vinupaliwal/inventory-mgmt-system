@@ -1,0 +1,66 @@
+body{
+    background: #f8f9fd;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 80vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+  }
+
+.form{
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    /* height: 600px; */
+}
+
+.form-body{
+    text-align: left;
+    padding: 20px 10px;
+    
+}
+
+.form-body > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 60%;
+}
+
+.form_input{
+    width: 60%;
+}
+input[type="text"],input[type="email"],
+  input[type="password"] {
+    margin-left: 30px;
+    height: 25px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+  }
+.footer{
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: linear-gradient(45deg,#6ac1c5,#bda5ff);
+    border: 0.9px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+}
+button:hover {
+    background: #6cf0c2;
+  }
+  
